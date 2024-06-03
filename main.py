@@ -29,7 +29,7 @@ play_game = True
 while play_game:
     for y in range(len(turtles)):
         random_turtle = random.choice(turtles)
-        random_turtle.forward(random.randint(0,4))
+        random_turtle.forward(random.randint(0, 4))
         for turtle in turtles:
             if turtle.xcor() >= 250.0:
                 play_game = False
